@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
     <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="principal">
 
         <div class="Box_1">
 
-            <nav>
+            <nav class="menu">
 
                 <img src="/assets/Logo.svg" alt="">
                 <a href=""><img src="/assets/Timer, Regular (Stroke).png" alt=""></a>
@@ -21,46 +22,51 @@
 
             <div class="def">
 
-                <p>
-                    
-                    Vou Trabalhar em
+                <span>Vou Trabalhar em</span>
 
-                    <input type="text" name="Project_Name" id="Project_Name" placeholder="De uma nome para o seu projeto"> 
+                    <input type="text" name="Project_Name" id="Project_Name" placeholder="De uma nome para o seu projeto" class="Pname"> 
 
-                    durante
+                    <span>durante</span>
 
                     <button id="decress">-</button>
 
-                    <input type="number" name="timer" id="timer" placeholder="00" max="60" min="0">
+                    <input type="number" name="timer" id="timer" placeholder="00" max="60" min="0" class="number">
 
                     <button id="incresse">+</button>
 
-                    minutos.
+                    <span>minutos.</span>
             
-                </p>
+                
 
             </div>
 
             <div class="display">
 
-                <input type="number" name="minutes" id="minutes" placeholder="MM" min="0" max="60">
+                <input type="number" name="minutes" id="minutes" placeholder="00" min="0" max="60" disabled>
                 <span>:</span>
-                <input type="number" name="seconds" id="seconds" placeholder="SS" min="0" max="59">
+                <input type="number" name="seconds" id="seconds" placeholder="00" min="0" max="59" disabled>
 
             
             </div>
 
-            <div id="erro"></div>
-            <button class="init" id="init">
+            <div id="erro" class="erro"></div>
+
+            <div class="iinit">
+
+                <button class="init" id="init">
                 
                 
-                <img src="/assets/Play, Regular.png" alt="">
-                Começar
+                    <img src="/assets/Play, Regular.png" alt="" class="initImg">
+    
+                    <span>Começar</span>
+                    
+                
+                </button>
+
+            </div>
             
-            </button>
 
         </div>
-
     </main>
 </body>
 </html>

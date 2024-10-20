@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body {
+
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    
+}
+
+.box1 {
+
+    background-color: #202024;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center;  
+    width: 100%;             
+    padding: 20px;        
+    margin: 0;   
+    
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #202024;
+    
+   
+
+}
+
+.menu img {
+
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+
+}
+
+.def{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202024;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 10px;
+    
+    
+}
+
+.Pname {
+
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #7C7C8A;
+    color: #7C7C8A;
+    font-size: 18px;
+    outline: none;
+    width: 50%;
+    max-width: 300px;
+
+}
+
+/* Remove as setas no Chrome, Safari, Edge e Opera */
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove as setas no Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.def button {
+
+    background-color: transparent;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    color: #7C7C8A;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    
+    
+    
+}
+
+.number{
+
+    background-color: transparent;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid #7C7C8A;
+    text-align: center;
+    color: #7C7C8A;
+    outline: none;
+    
+}
+
+.display{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 160px;
+    color: #00875f;
+
+
+}
+
+.display input {
+
+    background-color: #29292E;
+    border: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 160px;
+    text-align: center;
+    height: 200px;
+    width: 256px;
+    color: #E1E1E6;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+
+.erro p{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09090A;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #E1E1E6;
+    padding: 16px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    margin-top: 1rem;
+    
+}
+
+.iinit{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.init {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #E1E1E6;
+    background-color: #00875f;
+    border: transparent;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+
