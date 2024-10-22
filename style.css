@@ -16,31 +16,20 @@ body {
     
 }
 
-.box1 {
 
-    background-color: #202024;
-    display: flex;
-    flex-direction: column;  
-    align-items: center;     
-    justify-content: center;  
-    width: 100%;             
-    padding: 20px;        
-    margin: 0;   
-    
-}
 
 .menu {
 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     background-color: #202024;
-    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
    
-
 }
 
 .menu img {
@@ -48,6 +37,15 @@ body {
     display: flex;
     justify-content: center;
     margin-right: auto;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+.menu a{
+
+    margin-top: 2rem;
+    margin-right: 2rem;
 
 }
 
@@ -57,8 +55,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #202024;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     font-size: 18px;
     font-weight: bold;
     gap: 10px;
@@ -101,9 +99,21 @@ input[type="number"] {
     font-size: 20px;
     cursor: pointer;
     font-weight: 400;
-    
-    
-    
+    transition: color 0.3s, ease-in-out;
+     
+}
+
+.def button:hover{
+
+    color: #00875f;
+
+}
+
+.def span{
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
 }
 
 .number{
@@ -127,6 +137,9 @@ input[type="number"] {
     font-family: "Roboto", sans-serif;
     font-size: 160px;
     color: #00875f;
+    background-color: #202024;
+    margin-left: 10rem;
+    margin-right: 10rem;
 
 
 }
@@ -143,6 +156,15 @@ input[type="number"] {
     color: #E1E1E6;
     font-weight: bold;
     border-radius: 8px;
+    margin: 3rem;
+
+}
+
+.erro{
+
+    background-color: #202024;
+    margin-left: 10rem;
+    margin-right: 10rem;
 
 }
 
@@ -159,8 +181,7 @@ input[type="number"] {
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 5px;
-    margin-top: 1rem;
-    
+  
 }
 
 .iinit{
@@ -168,6 +189,12 @@ input[type="number"] {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #202024;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 2rem;
+    
+
 
 }
 
@@ -191,6 +218,7 @@ input[type="number"] {
     border-radius: 8px;
     gap: 5px;
     cursor: pointer;
+    margin-top: 1rem;
 
 }
 
